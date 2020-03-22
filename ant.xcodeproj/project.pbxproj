@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E3000052427A11900B38D03 /* TransactionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3000042427A11900B38D03 /* TransactionsTableViewController.swift */; };
 		7E30FFD324279D8E00B38D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFD224279D8E00B38D03 /* AppDelegate.swift */; };
 		7E30FFD524279D8E00B38D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFD424279D8E00B38D03 /* SceneDelegate.swift */; };
-		7E30FFD724279D8E00B38D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFD624279D8E00B38D03 /* ViewController.swift */; };
+		7E30FFD724279D8E00B38D03 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFD624279D8E00B38D03 /* TransactionsViewController.swift */; };
 		7E30FFDC24279D9800B38D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E30FFDB24279D9800B38D03 /* Assets.xcassets */; };
 		7E30FFEA24279D9900B38D03 /* antTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFE924279D9900B38D03 /* antTests.swift */; };
 		7E30FFF524279D9900B38D03 /* antUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFF424279D9900B38D03 /* antUITests.swift */; };
@@ -34,11 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E3000042427A11900B38D03 /* TransactionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTableViewController.swift; sourceTree = "<group>"; };
 		7E30FFCF24279D8E00B38D03 /* ant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E30FFD224279D8E00B38D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E30FFD424279D8E00B38D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E30FFD624279D8E00B38D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E30FFD624279D8E00B38D03 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		7E30FFDB24279D9800B38D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E30FFE024279D9800B38D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E30FFE524279D9900B38D03 /* antTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = antTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,10 +95,9 @@
 		7E30FFD124279D8E00B38D03 /* ant */ = {
 			isa = PBXGroup;
 			children = (
-				7E3000042427A11900B38D03 /* TransactionsTableViewController.swift */,
 				7E30FFD224279D8E00B38D03 /* AppDelegate.swift */,
 				7E30FFD424279D8E00B38D03 /* SceneDelegate.swift */,
-				7E30FFD624279D8E00B38D03 /* ViewController.swift */,
+				7E30FFD624279D8E00B38D03 /* TransactionsViewController.swift */,
 				7E30FFDB24279D9800B38D03 /* Assets.xcassets */,
 				7E30FFE024279D9800B38D03 /* Info.plist */,
 			);
@@ -254,8 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3000052427A11900B38D03 /* TransactionsTableViewController.swift in Sources */,
-				7E30FFD724279D8E00B38D03 /* ViewController.swift in Sources */,
+				7E30FFD724279D8E00B38D03 /* TransactionsViewController.swift in Sources */,
 				7E30FFD324279D8E00B38D03 /* AppDelegate.swift in Sources */,
 				7E30FFD524279D8E00B38D03 /* SceneDelegate.swift in Sources */,
 			);
