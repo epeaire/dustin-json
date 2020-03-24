@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3000072427BF4200B38D03 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3000062427BF4200B38D03 /* Transaction.swift */; };
+		7E3000092427C16F00B38D03 /* TransactionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3000082427C16F00B38D03 /* TransactionAPI.swift */; };
 		7E30FFD324279D8E00B38D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFD224279D8E00B38D03 /* AppDelegate.swift */; };
 		7E30FFD524279D8E00B38D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFD424279D8E00B38D03 /* SceneDelegate.swift */; };
 		7E30FFD724279D8E00B38D03 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFD624279D8E00B38D03 /* TransactionsViewController.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E3000062427BF4200B38D03 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		7E3000082427C16F00B38D03 /* TransactionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAPI.swift; sourceTree = "<group>"; };
 		7E30FFCF24279D8E00B38D03 /* ant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E30FFD224279D8E00B38D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E30FFD424279D8E00B38D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E30000A2427C35900B38D03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3000062427BF4200B38D03 /* Transaction.swift */,
+				7E3000082427C16F00B38D03 /* TransactionAPI.swift */,
+				7E30FFDB24279D9800B38D03 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E30000B2427C36F00B38D03 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E30FFD624279D8E00B38D03 /* TransactionsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		7E30FFC624279D8E00B38D03 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +117,11 @@
 		7E30FFD124279D8E00B38D03 /* ant */ = {
 			isa = PBXGroup;
 			children = (
+				7E30FFE024279D9800B38D03 /* Info.plist */,
 				7E30FFD224279D8E00B38D03 /* AppDelegate.swift */,
 				7E30FFD424279D8E00B38D03 /* SceneDelegate.swift */,
-				7E30FFD624279D8E00B38D03 /* TransactionsViewController.swift */,
-				7E30FFDB24279D9800B38D03 /* Assets.xcassets */,
-				7E30FFE024279D9800B38D03 /* Info.plist */,
+				7E30000A2427C35900B38D03 /* Supporting Files */,
+				7E30000B2427C36F00B38D03 /* Controllers */,
 			);
 			path = ant;
 			sourceTree = "<group>";
@@ -253,7 +275,9 @@
 			files = (
 				7E30FFD724279D8E00B38D03 /* TransactionsViewController.swift in Sources */,
 				7E30FFD324279D8E00B38D03 /* AppDelegate.swift in Sources */,
+				7E3000072427BF4200B38D03 /* Transaction.swift in Sources */,
 				7E30FFD524279D8E00B38D03 /* SceneDelegate.swift in Sources */,
+				7E3000092427C16F00B38D03 /* TransactionAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
