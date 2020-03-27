@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TransactionsViewController: UIViewController, UITableViewDataSource {
+class TransactionsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     //MARK:API Dummy Data
     private let transactions = TransactionAPI.getTransactions()
     
@@ -19,9 +19,14 @@ class TransactionsViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "transactionCell", for: indexPath)
-        cell.textLabel?.text = transactions[indexPath.row].transactionLocation
+        let cell = tableView.dequeueReusableCell(withIdentifier: "transactionCell", for: indexPath) as! TransactionTableViewCell
+       // cell.textLabel?.text = transactions[indexPath.row].transactionLocation
+        cell.transaction = transactions[indexPath.row]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
     }
     
     
@@ -41,8 +46,9 @@ class TransactionsViewController: UIViewController, UITableViewDataSource {
         setupTransactionTableView()
         
         transactionsTableView.dataSource = self
+        transactionsTableView.delegate = self
         
-        transactionsTableView.register(UITableViewCell.self, forCellReuseIdentifier: "transactionCell")
+        transactionsTableView.register(TransactionTableViewCell.self, forCellReuseIdentifier: "transactionCell")
     }
     
     //MARK:Constraint Setup

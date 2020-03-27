@@ -15,6 +15,8 @@
 		7E30FFDC24279D9800B38D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E30FFDB24279D9800B38D03 /* Assets.xcassets */; };
 		7E30FFEA24279D9900B38D03 /* antTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFE924279D9900B38D03 /* antTests.swift */; };
 		7E30FFF524279D9900B38D03 /* antUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30FFF424279D9900B38D03 /* antUITests.swift */; };
+		7E46F3FA242A8280001192C4 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E46F3F9242A8280001192C4 /* TransactionTableViewCell.swift */; };
+		7ED72C9D242D005D00B79BC4 /* transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ED72C9C242D005D00B79BC4 /* transactions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7E30FFF024279D9900B38D03 /* antUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = antUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E30FFF424279D9900B38D03 /* antUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = antUITests.swift; sourceTree = "<group>"; };
 		7E30FFF624279D9900B38D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E46F3F9242A8280001192C4 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		7ED72C9C242D005D00B79BC4 /* transactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transactions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,11 @@
 		7E30000A2427C35900B38D03 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E46F3F9242A8280001192C4 /* TransactionTableViewCell.swift */,
 				7E3000062427BF4200B38D03 /* Transaction.swift */,
 				7E3000082427C16F00B38D03 /* TransactionAPI.swift */,
 				7E30FFDB24279D9800B38D03 /* Assets.xcassets */,
+				7ED72C9C242D005D00B79BC4 /* transactions.json */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED72C9D242D005D00B79BC4 /* transactions.json in Resources */,
 				7E30FFDC24279D9800B38D03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +284,7 @@
 				7E30FFD324279D8E00B38D03 /* AppDelegate.swift in Sources */,
 				7E3000072427BF4200B38D03 /* Transaction.swift in Sources */,
 				7E30FFD524279D8E00B38D03 /* SceneDelegate.swift in Sources */,
+				7E46F3FA242A8280001192C4 /* TransactionTableViewCell.swift in Sources */,
 				7E3000092427C16F00B38D03 /* TransactionAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

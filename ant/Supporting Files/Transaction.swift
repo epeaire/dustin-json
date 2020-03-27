@@ -12,4 +12,7 @@ struct Transaction {
     let transactionLocation: String?
     let transactionAmount: Double?
     let transactionRound: Double?
-}
+    let transactionDate: (month: String, day: Int)
+        
+    }
+

@@ -11,9 +11,9 @@ import Foundation
 class TransactionAPI{
     static func getTransactions() -> [Transaction]{
         let transactions = [
-            Transaction(transactionLocation: "BP Gas Station", transactionAmount: 5.46, transactionRound: 0.54),
-            Transaction(transactionLocation: "Whole Foods", transactionAmount: 50.22, transactionRound: 0.78),
-            Transaction(transactionLocation: "Al's Bar", transactionAmount: 25.78, transactionRound: 0.22)
+            Transaction(transactionLocation: "BP Gas Station", transactionAmount: 5.46, transactionRound: 0.54, transactionDate: "May\n7"),
+            Transaction(transactionLocation: "Whole Foods", transactionAmount: 50.22, transactionRound: 0.78, transactionDate: "May\n19"),
+            Transaction(transactionLocation: "Al's Bar", transactionAmount: 25.78, transactionRound: 0.22, transactionDate: "May\n10")
         ]
         return transactions
     }
